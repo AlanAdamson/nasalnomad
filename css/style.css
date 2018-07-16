@@ -1,0 +1,327 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  font-family: 'Arial', sans-serif;
+  font-size: 1em;
+  color: #bbb;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.version {
+  font-size: 0.5em;
+  color: #444;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 0 0 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h3 {
+  color: #fff;
+}
+
+.logo {
+  font-family: 'Lobster', 'Arial', sans-serif;
+  color: #f60;
+  font-size: 5em;
+  font-weight: normal; 
+  margin: 0;
+}
+
+.logoFont {
+  font-family: 'Lobster', 'Arial', sans-serif;
+}
+
+.nav {
+  margin: 0 0 0 50px;
+}
+
+.nav a {
+  text-decoration: none;
+  padding: 15px;
+  font: 1.5em 'Arial';
+}
+
+ui-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: auto;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 470px;
+}
+
+.profileDesc {
+  padding: 0 40px 0 40px;
+  line-height: 1.5em;
+}
+
+.profileRight {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: #ACB645;
+}
+
+svg {
+  fill: #ACB645;
+}
+
+a:hover, a:hover > svg {
+  color: #ccd38a;
+  fill: #ccd38a;
+}
+
+.profilePic {
+}
+
+.portfolioBox {
+  width: 300px;
+  height: 150px;
+  border: 1px solid #999;
+  box-shadow: 0 0 15px #000;
+  display: flex;
+}
+
+.portfolioBox img {
+  width: 300px;
+  height: 150px;
+  position: absolute;
+  z-index: 10;
+}
+
+.boxLabel {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 15px;
+  margin: 15px 0 0 150px;
+  padding: 3px 0 3px 7px;
+  font-family: 'Arial', sans-serif;
+  font-size: .95em;
+  color: #000;
+  background-color: #ccd38a;
+  border: 1px solid #999;
+  box-shadow: 0 0 10px #000;
+  z-index: 100;
+  position: absolute;
+}
+.workDescrip {
+  width: 290px;
+  height: 65px;
+  padding: 0 10px 25px 10px;
+  font-family: 'Arial', sans-serif;
+}
+
+.portfolioBox:hover {
+   box-shadow: 0 0 15px #888;
+}
+
+.singleBoxWrap {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+/*   height: 250px;
+  margin: 0; */
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #541633;
+  margin: 30px 0 20px 0;
+  /*box-shadow: 0 0 20px #000;*/
+  align-items: center;
+}
+
+.contentWrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1080px;
+}
+
+.soon {
+  width: 45%;
+  margin: 100px;
+  text-indent: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+.is-hidden {
+  display: none !important;
+}
+
+.bold {
+  font-weight: bolder;
+  color: #000;
+}
+
+.boxBorder {
+  /*display: flex;
+  align-items: center;
+  justify-content: center;*/
+  /*margin: 0 0 0 50px;*/
+  padding: 5px;
+  border: 1px solid #fff;
+  /*width: 61vw;
+  height: 72vh;*/
+  /*display: flex;
+  align-items: center;
+  justify-content: center;*/
+  /*display: inline-block;*/
+  opacity: 0.15;
+  filter: alpha(opacity=10);
+  /*position: absolute;*/
+}
+
+.transparentBox {
+  background-color: #333;
+  border: 1px solid #999;
+  /*padding: 5px;*/
+  /*opacity: 0.10;
+  filter: alpha(opacity=10);*/
+  width: 90vw;
+  height: 70vh;
+  /*width: 800px;
+  height: 300px;*/
+}
+
+.connect {
+  display: flex;
+/*   flex-direction: row;
+  width: 100vw;
+  justify-content: center; */
+  padding: 0 0 0 25px;
+}
+
+.connectLink {
+  padding: 0 25px 0 0;
+  display: flex;
+  align-items: center;
+}
+
+.connectLink span {
+  margin: 5px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  margin: 15px 0 15px 0;
+  padding: 15px 0 0 0;
+  border-top: 1px solid #999;
+}
+
+.liNoStyle {
+  list-style-type: none;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  
+  body {
+    height: 100%;
+  }
+
+}
+
+
+@media screen and (max-width: 1096px) {
+
+  .contentWrap {
+    max-width: 720px;
+  }
+
+  .profileDesc {
+  }
+
+}
+
+@media screen and (max-width: 630px) {
+
+  .singleBoxWrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo {
+    font-size: 3em;
+    width: 293px;
+  }
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+  .contentWrap {
+    flex-direction: column;
+  }
+
+  .profileDesc {
+    font-size: 0.91em;
+    width: 230px;
+  }
+
+  .workDescrip {
+    display: block;
+  }
+
+  .profile {
+    flex-direction: column;
+    width: 230px;
+  }
+
+  .profileRight {
+   /* padding: 0px;
+    align-items: center; */
+  }
+
+  footer {
+    width: 90vw;
+  }
+
+  .myName {
+    font-size: 2em;
+  }
+
+  .profilePic {
+    width: 150px;
+  }
+  
+  .soon {
+    width: 90%;
+    margin: 0;
+  }
+  
+  .boxlabel {
+    margin: 15px 0 0 10px;
+  }
+    
+}

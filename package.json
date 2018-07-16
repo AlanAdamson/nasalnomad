@@ -1,0 +1,26 @@
+{
+  "name": "codedimage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlanAdamson/codedimage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlanAdamson/codedimage/issues"
+  },
+  "homepage": "https://github.com/AlanAdamson/codedimage#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "jquery": "^3.1.1",
+    "ui-router-core": "2.0.0",
+    "ejs": "~2.5.5"
+  }
+}
