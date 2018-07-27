@@ -3919,6 +3919,28 @@
         "homepage": "https://wordpress.org/plugins/debug-bar/"
     },
     {
+        "name": "wpackagist-plugin/external-media-without-import",
+        "version": "1.0.2.1",
+        "version_normalized": "1.0.2.1",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/external-media-without-import/",
+            "reference": "tags/1.0.2.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/external-media-without-import.1.0.2.1.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/external-media-without-import/"
+    },
+    {
         "name": "wpackagist-plugin/nginx-helper",
         "version": "1.9.10",
         "version_normalized": "1.9.10.0",

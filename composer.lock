@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4c9d1954dbff58b2818cfa767a6456e9",
+    "content-hash": "e70dcb4a9cf674f244bc03760c6bebae",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -3695,6 +3695,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/debug-bar/"
+        },
+        {
+            "name": "wpackagist-plugin/external-media-without-import",
+            "version": "1.0.2.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/external-media-without-import/",
+                "reference": "tags/1.0.2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/external-media-without-import.1.0.2.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/external-media-without-import/"
         },
         {
             "name": "wpackagist-plugin/nginx-helper",
